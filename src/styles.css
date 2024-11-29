@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #ff7575;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: rgb(255, 216, 216);
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* General Section Styling */
+  section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    border: 1px solid #ff7575;
+    border-radius: 8px;
+  }
+/* Product Layout */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    flex: 1 1 calc(25% - 20px);
+    background: #e3e3e3;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ff7575;
+    border-radius: 8px;
+  }
+    /* Employee Cards */
+.employee-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .employee-card {
+    flex: 1 1 300px;
+    background: #fff;
+    border: 1px solid #ff7575;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .employee-card img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+/* Student Profiles */
+.student-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+  }
+  
+  .student-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ff7575;
+    border-radius: 8px;
+    justify-content: center;
+  }
+/* Blog Layout */
+.blog-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .blog-post {
+    flex: 1 1 30%;
+    background: #ececec;
+    padding: 15px;
+    border-radius: 8px;
+  }
+/* Contact Form */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .form-container input, .form-container button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ff7d7d;
+    border-radius: 4px;
+  }
+        
